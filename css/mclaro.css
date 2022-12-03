@@ -1,0 +1,97 @@
+@media (prefers-colors-scheme: light) {
+    body {
+        background-color: white;
+    }
+
+    header {
+        background-image: url(../image/game.png);
+    }
+
+    nav {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    nav ul li a {
+        color: black;
+    }
+
+    nav ul li .link::before {
+        background-color: black;
+    }
+    nav .mobible .header {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    nav .mobible .header a {
+        color: black;
+    }
+
+    nav .mobible .header #bmenu {
+        color: black;
+    }
+
+    nav .mobible .links {
+        background-color: white;
+    }
+
+    nav .mobible .links a {
+        color : black;
+    }
+
+    nav .mobible .links a::hover {
+        color : white;
+        background-color: black;
+    }
+
+    #banner {
+        color : black;
+        background-color: white;
+    }
+
+    h2::before {
+        background-color: #8cd320;
+    }
+
+    .green-button {
+        background-color: greenyellow;
+    }
+
+    .green-button::hover {
+        background-color: rgb(138, 207, 33);
+    }
+
+    .green-link {
+        color : #8cd320;
+    }
+
+    .green-link::before {
+        background-color: #8cd320;
+    }
+
+    h3 {
+        color : black;
+    }
+
+    #videos {
+        color : black;
+    }
+
+    @media screen and (max-width: 1520px) {
+        .info {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black;
+        }        
+    }
+
+    #get-the-game {
+        color: black;
+    }
+
+    #get-the-game h2 {
+        color: black;
+    }
+
+    footer {
+        background-image: url(../image/halo-winter.jpg);
+    }
+}
